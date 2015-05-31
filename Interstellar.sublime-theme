@@ -366,7 +366,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
         "layer0.texture": "",
-        "layer0.tint":[231,76,60,50]
+        "layer0.tint":[255, 255, 255]
 
     },
     // Overlay light horizontal puck (for dark content)
@@ -375,7 +375,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
         "layer0.texture": "",
-        "layer0.tint":[231,76,60,50]
+        "layer0.tint":[255, 255, 255]
     },
 
 //
@@ -384,7 +384,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [17,17,17],
+        "layer0.tint": [10,11,12],
         "layer0.opacity": 1
     },
 
@@ -404,7 +404,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [231,76,60,30]
+        "viewport_color": [255,255,255,20]
     },
 
 //
@@ -414,21 +414,22 @@
     // General labels
     {
         "class": "label_control",
-        "color": [170, 170, 170]
+        "color": [140,140,140]
     },
     // Text field labels
     {
         "class": "label_control",
-        "parents": [{"class": "panel_control"}],
-        "shadow_color": [0,0,0],
-        "shadow_offset": [1,1]
+        "parents": [{"class": "panel_control"}]
+        // ,"shadow_color": [0,0,0],
+        // "shadow_offset": [1,1]
     },
     // Button labels
     {
         "class": "label_control",
         "parents": [{"class": "button_control"}],
-        "shadow_color": [55,55,55],
-        "shadow_offset": [0,0]
+        "color": [140,140,140]
+        // ,"shadow_color": [55,55,55],
+        // "shadow_offset": [0,0]
     },
 
 //
@@ -438,8 +439,8 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.texture": "",
-        "layer0.tint": [17,17,17],
+        //"layer0.texture": [30,30,30],
+        "layer0.tint": [40,40,40],
         "layer0.inner_margin": [1,1],
         "layer0.opacity": 1,
         "content_margin": [5,5]
@@ -447,7 +448,7 @@
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [231,76,60]
+        "color": [255,255,255]
     },
 
 //
@@ -471,8 +472,8 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [170,170,170],
-        "shadow_offset": [0,0]
+        "color": [140,140,140]
+        // ,"shadow_offset": [0,0]
     },
 
 //
@@ -575,14 +576,14 @@
     //     "layer0.texture": "interstellar-theme/assets/circle@2x.png",
     //     "layer0.opacity": 0,
     //     "layer0.inner_margin": 0,
-    //     "layer0.tint": [231,76,60],
+    //     "layer0.tint": [255,255,255],
     //     "content_margin": [8,8]
     // },
     // {
     //     "class": "close_button",
     //     "parents": [{"class": "tree_row","attributes": ["hover"]}],
     //     "layer0.opacity": 1,
-    //     "layer0.tint": [231,76,60]
+    //     "layer0.tint": [255,255,255]
     // },
     // // Sidebar file dirty
     // {
@@ -590,7 +591,7 @@
     //     "attributes": ["dirty"],
     //     "layer0.texture": "interstellar-theme/assets/circle@2x.png",
     //     "layer0.opacity": 1,
-    //     "layer0.tint": [231,76,60]
+    //     "layer0.tint": [255,255,255]
     // },
     // {
     //     "class": "close_button",
@@ -604,7 +605,7 @@
     //     "parents": [{"class": "tree_row","attributes": ["hover"]}],
     //     "layer0.texture": "interstellar-theme/assets/close@2x.png",
     //     "layer0.opacity": 1,
-    //     "layer0.tint": [231,76,60]
+    //     "layer0.tint": [255,255,255]
     // },
     // // Sidebar file close hover
     // {
@@ -639,7 +640,7 @@
         "class": "disclosure_button_control",
         "content_margin": [9,9],
         "layer0.texture": "interstellar-theme/assets/folder-closed@2x.png",
-        "layer0.tint": [170,170,170],
+        "layer0.tint": [140,140,140],
         "layer0.opacity": 1,
         "layer0.inner_margin": [2,2]
     },
@@ -667,7 +668,7 @@
         "settings": ["soda_folder_icons"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.texture": "interstellar-theme/assets/folder-closed@2x.png",
-        "layer0.tint": [170,170,170],
+        "layer0.tint": [140,140,140],
         "layer0.opacity": 1
     },
     // Sidebar group open
@@ -753,8 +754,8 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [10, 10],
-        "layer0.texture": "interstellar-theme/assets/circleanim.png",
-        "layer0.tint": [231, 76, 60],
+        "layer0.texture": "interstellar-theme/assets/tab-scroll-dropdown@2x.png",
+        "layer0.tint": [60,60,60],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 0]
     },
@@ -769,7 +770,7 @@
         "layer0.texture": "",
         "layer0.inner_margin": [10, 1],
         "layer0.opacity": 1,
-        "layer0.tint": [17,17,17],
+        "layer0.tint": [10,11,12],
         "content_margin": [0,0,0,0]
     },
     // Quick panel background
@@ -777,7 +778,7 @@
         "class": "overlay_control",
         "layer0.opacity": 1,
         "layer1.texture": "",
-        "layer1.tint": [17, 17, 17],
+        "layer1.tint": [10,11,12],
         "layer1.inner_margin": [0, 0, 0, 0],
         "layer1.opacity": 1,
         "content_margin": [0, 0, 0, 0]
@@ -790,14 +791,14 @@
     {
         "class": "quick_panel",
         "row_padding": 15,
-        "layer0.tint": [17,17,17],
+        "layer0.tint": [10,11,12],
         "layer0.opacity": 1,
         "dark_content": true
     },
     {
         "class": "quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [17,17,17],
+        "layer0.tint": [10,11,12],
         "layer0.inner_margin": 0,
         "layer0.opacity": 1
     },
@@ -805,31 +806,31 @@
         "class": "quick_panel_row",
         "attributes": ["hover"],
         "layer0.texture": "",
-        "layer0.tint": [192, 57, 43]
+        "layer0.tint": [30,30,30]
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [192, 57, 43]
+        "layer0.tint": [40,40,40]
     },
     {
         "class": "quick_panel_label",
-        "fg": [255,255,255],
+        "fg": [140,140,140],
         "match_fg": [255,255,255],
         "selected_fg": [255,255,255],
         "selected_match_fg": [255,255,255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [255,255,255],
+        "fg": [140,140,140],
         "match_fg": [255,255,255],
         "selected_fg": [255,255,255],
         "selected_match_fg": [255,255,255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [255,255,255],
+        "fg": [140,140,140],
         "selected_fg": [255,255,255]
     },
 
@@ -840,14 +841,14 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [17,17,17],
+        "layer0.tint": [10,11,12],
         "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [192, 57, 43]
+        "layer0.tint": [40,40,40]
     },
 
 //
@@ -858,7 +859,7 @@
         "class": "popup_control",
         // "content_margin": [13,13],
         "content_margin": [0,0],
-        "layer0.tint": [17,17,17],
+        "layer0.tint": [10,11,12],
         "layer0.opacity": 1
     },
     {
@@ -867,7 +868,7 @@
     },
     {
         "class": "auto_complete_label",
-        "fg": [255,255,255],
+        "fg": [140,140,140],
         "match_fg": [255,255,255],
         "selected_fg": [255,255,255],
         "selected_match_fg": [255,255,255]
@@ -875,7 +876,7 @@
     {
         "class": "table_row",
         "layer0.texture": "",
-        "layer0.tint":[231,76,60],
+        "layer0.tint":[40,40,40],
         "layer0.opacity": 0,
         "layer0.inner_margin": [5,5]
     },
@@ -894,7 +895,7 @@
         "class": "icon_button_control",
         "layer1.texture": "",
         "layer1.opacity": 0,
-        "layer1.tint":[35,40,48],
+        "layer1.tint":[30,30,30],
         "content_margin": 7
     },
     {
@@ -951,55 +952,55 @@
     {
         "class": "icon_regex",
         "layer0.texture": "interstellar-theme/assets/regex.png",
-        "layer0.tint": [170, 170, 170],
+        "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [255,255,255]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [140,140,140]
     },
     // Case sensitive search button
     {
         "class": "icon_case",
         "layer0.texture": "interstellar-theme/assets/casesens.png",
-        "layer0.tint": [170, 170, 170],
+        "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [255,255,255]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [140,140,140]
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "interstellar-theme/assets/wholeword.png",
-        "layer0.tint": [170, 170, 170],
+        "layer0.texture": "interstellar-theme/assets/wholeword@2x.png",
+        "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [255,255,255]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [140,140,140]
     },
 
 //
@@ -1009,38 +1010,38 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "interstellar-theme/assets/context.png",
-        "layer0.tint": [170, 170, 170],
+        "layer0.texture": "interstellar-theme/assets/context@2x.png",
+        "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [255,255,255]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [140,140,140]
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "interstellar-theme/assets/buffer.png",
-        "layer0.tint": [170, 170, 170],
+        "layer0.texture": "interstellar-theme/assets/buffer@2x.png",
+        "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [255,255,255]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [140,140,140]
     },
 
 //
@@ -1049,43 +1050,43 @@
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "interstellar-theme/assets/reverse.png",
-        "layer0.tint": [170, 170, 170],
+        "layer0.texture": "interstellar-theme/assets/reverse@2x.png",
+        "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [255,255,255]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [140,140,140]
     },
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "interstellar-theme/assets/wrap.png",
-        "layer0.tint": [170, 170, 170],
+        "layer0.texture": "interstellar-theme/assets/wrap@2x.png",
+        "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [255,255,255]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [140,140,140]
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "interstellar-theme/assets/selection.png",
+        "layer0.texture": "interstellar-theme/assets/selection@2x.png",
         "layer0.tint": [79,91,103],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1093,12 +1094,12 @@
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [255,255,255]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [140,140,140]
     },
 
 //
@@ -1108,20 +1109,20 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "interstellar-theme/assets/casesens.png",
-        "layer0.tint": [170, 170, 170],
+        "layer0.texture": "interstellar-theme/assets/casesens@2x.png",
+        "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [255,255,255]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [140,140,140]
     },
 
 //
@@ -1131,19 +1132,19 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "interstellar-theme/assets/highlight.png",
-        "layer0.tint": [170, 170, 170],
+        "layer0.texture": "interstellar-theme/assets/highlight@2x.png",
+        "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [255,255,255]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [231,76,60]
+        "layer0.tint": [140,140,140]
     }
 ]
