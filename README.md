@@ -1,20 +1,19 @@
-# Brogrammer
+# Interstellar
 
-Brogrammer is a flat sexy theme. Pushups not included.
-
-![Brogrammer Screenshot](http://i.imgur.com/7EPa8Wm.png)
-![Brogrammer Screenshot](http://i.imgur.com/hXE6jYP.png)
+A space travel S3 theme.
 
 ## Install
 
 ### Via Package Control
 
-Theme is listed as `Theme - Brogrammer` in Will Bond's [Sublime Package Control](https://sublime.wbond.net).
+WIP
+
+~~Theme is listed as `Theme - Interstellar` in Will Bond's [Sublime Package Control](https://sublime.wbond.net).~~
 
 ### Manual
 
-1. [Download the .zip](https://github.com/kenwheeler/brogrammer-theme/archive/master.zip)
-2. Unzip and rename the folder to `Theme - Brogrammer`
+1. ~~[Download the .zip](https://github.com/flovan/interstellar-theme/archive/master.zip)~~
+2. Unzip and rename the folder to `Theme - Interstellar`
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text
 
 ## Setup
@@ -24,7 +23,17 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ### Example settings
 ```
 {
-  "theme": "Brogrammer.sublime-theme",
-  "color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme"
+  "theme": "Interstellar.sublime-theme",
+  "color_scheme": "Packages/Theme - Interstellar/Interstellar-Sun.tmTheme"
 }
+```
+
+## Development
+
+Fork this package and symlink it to your packages folder.
+
+### Example symlink command
+
+```
+ln -s /Applications/MAMP/htdocs/interstellar-theme /Users/username/Library/Application\ Support/Sublime\ Text\ 3/Packages
 ```
