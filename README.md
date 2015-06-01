@@ -37,3 +37,8 @@ Fork this package and symlink it to your packages folder.
 ```
 ln -s /Applications/MAMP/htdocs/interstellar-theme /Users/username/Library/Application\ Support/Sublime\ Text\ 3/Packages
 ```
+
+### Note to self; tools
+
+http://tmtheme-editor.herokuapp.com/
+https://github.com/P233/Blank-Color-Scheme/blob/master/Blank.tmTheme
