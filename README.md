@@ -1,6 +1,6 @@
 # Interstellar
 
-A space travel S3 theme.
+A space travel ST3 interface theme.
 
 ## Install
 

@@ -41,10 +41,10 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <key>selectionBorder</key>
                 <string>#8B634A</string>
                 <key>activeGuide</key>
-                <string>#6D5B4F</string>
+                <string>#806B5D</string>
 
                 <key>bracketsForeground</key>
-                <string>#6D5B4F</string>
+                <string>#806B5D</string>
                 <key>bracketsOptions</key>
                 <string>underline</string>
 
@@ -59,13 +59,13 @@ Find more themes at : https://github.com/daylerees/colour-schemes
         </dict>
         <dict>
             <key>name</key>
-            <string>JS and HTML Braces and punctuation</string>
+            <string>Front-end Braces and Punctuation</string>
             <key>scope</key>
-            <string>meta.brace, punctuation.definition.tag</string>
+            <string>meta.brace, punctuation.definition.tag, punctuation.terminator, meta.delimiter.object.comma, punctuation.section.property-list, punctuation.section.embedded</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#6D5B4F</string>
+                <string>#806B5D</string>
             </dict>
         </dict>
         <dict>
@@ -76,7 +76,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#6D5B4F</string>
+                <string>#806B5D</string>
             </dict>
         </dict>
         <dict>
@@ -409,7 +409,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#6D5B4F</string>
+                <string>#806B5D</string>
             </dict>
         </dict>
         <dict>
