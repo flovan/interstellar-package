@@ -1,6 +1,30 @@
-# Interstellar
+#  [✦  Interstellar  ✦ ](http://flovan.me/interstellar)
 
-A space travel ST3 interface theme.
+**A space travel ST3 interface theme.**
+
+Sun  
+⋮  
+Mercury  
+⋮  
+Venus  
+⋮  
+Earth  
+⋮  
+Moon  
+⋮  
+Mars  
+⋮  
+Jupiter  
+⋮  
+Saturn  
+⋮  
+Uranus  
+⋮  
+Neptune  
+⋮  
+Pluto
+
+[Demo's available on the website](http://flovan.me/interstellar)
 
 ## Install
 
