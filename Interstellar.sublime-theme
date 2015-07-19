@@ -40,7 +40,7 @@
         "layer0.tint": [10,11,12],
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
-        "layer1.texture": "interstellar-theme/assets/tab-bar@2x.png",
+        "layer1.texture": "interstellar-package/assets/tab-bar@2x.png",
         "layer1.opacity": 0.2
     },
     // Tab close state
@@ -64,7 +64,7 @@
         "layer0.texture": "",
         "layer0.tint": [30,30,30],
         "layer0.opacity": 1,
-        "layer1.texture": "interstellar-theme/assets/tab-bar@2x.png",
+        "layer1.texture": "interstellar-package/assets/tab-bar@2x.png",
         "layer1.opacity": 1
     },
     // Tab dirty state (close button hidden)
@@ -81,7 +81,7 @@
     // Tab close button
     {
         "class": "tab_close_button",
-        "layer0.texture": "interstellar-theme/assets/close@2x.png",
+        "layer0.texture": "interstellar-package/assets/close@2x.png",
         "layer0.opacity": 0,
         "layer0.tint": [60,60,60]
     },
@@ -109,12 +109,12 @@
         "layer0.texture": {
             "keyframes":
             [
-                "interstellar-theme/assets/dirty-01@2x.png",
-                "interstellar-theme/assets/dirty-02@2x.png",
-                "interstellar-theme/assets/dirty-03@2x.png",
-                "interstellar-theme/assets/dirty-04@2x.png",
-                "interstellar-theme/assets/dirty-03@2x.png",
-                "interstellar-theme/assets/dirty-02@2x.png"
+                "interstellar-package/assets/dirty-01@2x.png",
+                "interstellar-package/assets/dirty-02@2x.png",
+                "interstellar-package/assets/dirty-03@2x.png",
+                "interstellar-package/assets/dirty-04@2x.png",
+                "interstellar-package/assets/dirty-03@2x.png",
+                "interstellar-package/assets/dirty-02@2x.png"
                 
             ],
             "loop": true,
@@ -133,7 +133,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
-        "layer0.texture": "interstellar-theme/assets/close@2x.png",
+        "layer0.texture": "interstellar-package/assets/close@2x.png",
         "layer0.opacity": 1,
         "layer0.tint": [140,140,140]
     },
@@ -201,7 +201,7 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [49, 50, 0, 0],
-        "layer0.texture": "interstellar-theme/assets/tab-scroll-dropdown@2x.png",
+        "layer0.texture": "interstellar-package/assets/tab-scroll-dropdown@2x.png",
         "layer0.inner_margin": [0,0,0,0],
         "layer0.tint": [140,140,140],
         "layer0.opacity": 1.0
@@ -215,7 +215,7 @@
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [58, 50, -20, 0],
-        "layer0.texture": "interstellar-theme/assets/tab-scroll-left@2x.png",
+        "layer0.texture": "interstellar-package/assets/tab-scroll-left@2x.png",
         "layer0.inner_margin": [0,0,0,0],
         "layer0.tint": [140,140,140],
         "layer0.opacity": 1.0
@@ -229,7 +229,7 @@
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [58, 50, -20, 0],
-        "layer0.texture": "interstellar-theme/assets/tab-scroll-right@2x.png",
+        "layer0.texture": "interstellar-package/assets/tab-scroll-right@2x.png",
         "layer0.inner_margin": [0,0,0,0],
         "layer0.tint": [140,140,140],
         "layer0.opacity": 1.0
@@ -246,7 +246,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "interstellar-theme/assets/folder-closed@2x.png",
+        "layer0.texture": "interstellar-package/assets/folder-closed@2x.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "content_margin": [8,8]
@@ -259,7 +259,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "interstellar-theme/assets/folder-open@2x.png",
+        "layer0.texture": "interstellar-package/assets/folder-open@2x.png",
         "layer0.opacity": 0.25
     },
     {
@@ -583,7 +583,7 @@
     // // Sidebar file close
     // {
     //     "class": "close_button",
-    //     "layer0.texture": "interstellar-theme/assets/circle@2x.png",
+    //     "layer0.texture": "interstellar-package/assets/circle@2x.png",
     //     "layer0.opacity": 0,
     //     "layer0.inner_margin": 0,
     //     "layer0.tint": [255,255,255],
@@ -599,7 +599,7 @@
     // {
     //     "class": "close_button",
     //     "attributes": ["dirty"],
-    //     "layer0.texture": "interstellar-theme/assets/circle@2x.png",
+    //     "layer0.texture": "interstellar-package/assets/circle@2x.png",
     //     "layer0.opacity": 1,
     //     "layer0.tint": [255,255,255]
     // },
@@ -607,13 +607,13 @@
     //     "class": "close_button",
     //     "attributes": ["dirty"],
     //     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    //     "layer0.texture": "interstellar-theme/assets/close@2x.png"
+    //     "layer0.texture": "interstellar-package/assets/close@2x.png"
     // },
     // {
     //     "class": "close_button",
     //     "attributes": ["dirty"],
     //     "parents": [{"class": "tree_row","attributes": ["hover"]}],
-    //     "layer0.texture": "interstellar-theme/assets/close@2x.png",
+    //     "layer0.texture": "interstellar-package/assets/close@2x.png",
     //     "layer0.opacity": 1,
     //     "layer0.tint": [255,255,255]
     // },
@@ -621,12 +621,12 @@
     // {
     //     "class": "close_button",
     //     "attributes": ["hover"],
-    //     "layer0.texture": "interstellar-theme/assets/close@2x.png"
+    //     "layer0.texture": "interstellar-package/assets/close@2x.png"
     // },
     // {
     //     "class": "close_button",
     //     "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
-    //     "layer0.texture": "interstellar-theme/assets/close@2x.png",
+    //     "layer0.texture": "interstellar-package/assets/close@2x.png",
     //     "layer0.opacity": 1
     // },
 
@@ -649,7 +649,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [9,9],
-        "layer0.texture": "interstellar-theme/assets/folder-closed@2x.png",
+        "layer0.texture": "interstellar-package/assets/folder-closed@2x.png",
         "layer0.tint": [140,140,140],
         "layer0.opacity": 1,
         "layer0.inner_margin": [2,2]
@@ -677,7 +677,7 @@
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "interstellar-theme/assets/folder-closed@2x.png",
+        "layer0.texture": "interstellar-package/assets/folder-closed@2x.png",
         "layer0.tint": [140,140,140],
         "layer0.opacity": 1
     },
@@ -685,40 +685,40 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "interstellar-theme/assets/folder-open@2x.png"
+        "layer0.texture": "interstellar-package/assets/folder-open@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "interstellar-theme/assets/folder-open@2x.png"
+        "layer0.texture": "interstellar-package/assets/folder-open@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "interstellar-theme/assets/folder-open@2x.png"
+        "layer0.texture": "interstellar-package/assets/folder-open@2x.png"
     },
     // Sidebar folder open
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
-        "layer0.texture": "interstellar-theme/assets/folder-open@2x.png"
+        "layer0.texture": "interstellar-package/assets/folder-open@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "interstellar-theme/assets/folder-open@2x.png"
+        "layer0.texture": "interstellar-package/assets/folder-open@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "interstellar-theme/assets/folder-open@2x.png"
+        "layer0.texture": "interstellar-package/assets/folder-open@2x.png"
     },
 
 //
@@ -764,7 +764,7 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [10, 10],
-        "layer0.texture": "interstellar-theme/assets/input-dropdown@2x.png",
+        "layer0.texture": "interstellar-package/assets/input-dropdown@2x.png",
         "layer0.tint": [60,60,60],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 0]
@@ -961,7 +961,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "interstellar-theme/assets/regex@2x.png",
+        "layer0.texture": "interstellar-package/assets/regex@2x.png",
         "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -979,7 +979,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "interstellar-theme/assets/casesens@2x.png",
+        "layer0.texture": "interstellar-package/assets/casesens@2x.png",
         "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -997,7 +997,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "interstellar-theme/assets/wholeword@2x.png",
+        "layer0.texture": "interstellar-package/assets/wholeword@2x.png",
         "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1020,7 +1020,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "interstellar-theme/assets/context@2x.png",
+        "layer0.texture": "interstellar-package/assets/context@2x.png",
         "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1038,7 +1038,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "interstellar-theme/assets/buffer@2x.png",
+        "layer0.texture": "interstellar-package/assets/buffer@2x.png",
         "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1060,7 +1060,7 @@
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "interstellar-theme/assets/reverse@2x.png",
+        "layer0.texture": "interstellar-package/assets/reverse@2x.png",
         "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1078,7 +1078,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "interstellar-theme/assets/wrap@2x.png",
+        "layer0.texture": "interstellar-package/assets/wrap@2x.png",
         "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1096,7 +1096,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "interstellar-theme/assets/selection@2x.png",
+        "layer0.texture": "interstellar-package/assets/selection@2x.png",
         "layer0.tint": [79,91,103],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1119,7 +1119,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "interstellar-theme/assets/casesens@2x.png",
+        "layer0.texture": "interstellar-package/assets/casesens@2x.png",
         "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1142,7 +1142,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "interstellar-theme/assets/highlight@2x.png",
+        "layer0.texture": "interstellar-package/assets/highlight@2x.png",
         "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "content_margin": 8
