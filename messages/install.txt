@@ -1,0 +1,26 @@
+☄ INTERSTELLAR
+===============
+
+Thank you for installing Interstellar!
+
+This series of Sublime Text 3 themes is inspired by a journey into outerspace.  
+Let your code be illuminated by the shimmer of a planet.
+
+> Previews available on the Interstellar webpage: http://flovan.me/interstellar.
+
+
+---------------
+
+
+To get started, add the following to your preferences:
+
+```
+{
+  "theme": "Interstellar.sublime-theme",
+  "color_scheme": "Packages/Theme - Interstellar/sun.tmTheme"
+}
+```
+
+---------------
+
+Happy coding!

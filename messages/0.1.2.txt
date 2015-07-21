@@ -1,0 +1,14 @@
+☄ INTERSTELLAR
+===============
+
+Release v0.1.2:
+- Added messages to communicate changes
+
+---------------
+
+Release v0.1.1:
+- Fixed assets links for the UI theme (sorry!)
+
+---------------
+
+Happy coding!
