@@ -1,0 +1,72 @@
+This branch will serve to add or tweak custom UI icons.
+Stuff to do:
+
+- [] Sidebar icons
+   - [] Filetype icons (https://github.com/ctf0/Seti_ST3/tree/master/icons)
+      - [] Dotfiles
+      - [] Generic (.[xyz])
+      - [] R
+      - [] Actionscripts (.as)
+      - [] Angular
+      - [] Apache
+      - [] Applescript
+      - [] Binary
+      - [] Blade
+      - [] Bower
+      - [] C#
+      - [] C++
+      - [] C
+      - [] Clojure
+      - [] Coffeescript
+      - [] CSS
+      - [] DLang
+      - [] Docker
+      - [] Erlang
+      - [] Font
+      - [] Git
+      - [] Go
+      - [] Grunt file
+      - [] Gulp file
+      - [] Haml
+      - [] Haskell
+      - [] Haxe
+      - [] HTML
+      - [] Image
+      - [] Jade
+      - [] Javascript
+      - [] JSP
+      - [] Less
+      - [] License
+      - [] Lisp
+      - [] Markdown
+      - [] Mustache
+      - [] NPM
+      - [] Perl
+      - [] PHP
+      - [] Python
+      - [] Rails
+      - [] React
+      - [] Ruby
+      - [] Rust
+      - [] Sass
+      - [] Scala
+      - [] SCSS
+      - [] Source
+      - [] Tex
+      - [] Text
+      - [] Textile
+      - [] Twig
+      - [] Typescript
+      - [] Yaml
+- [] Find/replace bar (need to be more descriptive if possible)
+   - [] Regular Expression
+   - [] Case Sensitive
+   - [] Whole Word
+   - [] Show Context
+   - [] Use Buffer
+   - [] Text field options (three dots atm)
+- [] Revisit existing icons
+   - [] Previous/next arrows
+   - [] Options (three dots)
+   - [] Unsaved changes (animated)
+   - [] Open/closed folder
